@@ -14,7 +14,7 @@ function createMenuData(data) {
       else {  // For if there is a new Parent + Child Combination
         var combo = new Object();   // Creates a new object called combo
         combo.title = x[0];         // Adds a 'title' property to combo, with the value stored in x[0] (the 'parent' e.g. 'parent1')
-        combo.data = [x[1]];        // Adds a 'data' property to combo, with the value stored in x[1] (the 'child' e.g. 'parent1child')
+        combo.data = [x[1]];        // Adds a 'data' property to combo (as a array), with the value stored in x[1] (the 'child' e.g. 'parent1child')
         menu.push(combo);           // Appends the object to the menu array
       };
 
